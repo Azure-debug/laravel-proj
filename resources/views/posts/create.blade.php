@@ -14,10 +14,10 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
-            <a class="navbar-brand h1" href={{ route('posts.index') }}>CRUDPosts</a>
+            <a class="navbar-brand h1" href={{ route('posts.index') }}>CRUDTASK</a>
             <div class="justify-end ">
                 <div class="col ">
-                    <a class="btn btn-sm btn-success" href={{ route('posts.create') }}>Add Post</a>
+                    <a class="btn btn-sm btn-success" href={{ route('posts.create') }}>Add Task</a>
                 </div>
             </div>
     </nav>
@@ -37,7 +37,7 @@
                         <textarea class="form-control" id="body" name="body" rows="3" required></textarea>
                     </div>
                     <br>
-                    <button type="submit" class="btn btn-primary">Create Post</button>
+                    <button type="submit" class="btn btn-primary">Create Task</button>
                 </form>
             </div>
         </div>

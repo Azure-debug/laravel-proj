@@ -8,16 +8,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <title>Edit Post</title>
+    <title>Edit Task</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
-            <a class="navbar-brand h1" href={{ route('posts.index') }}>CRUDPosts</a>
+            <a class="navbar-brand h1" href={{ route('posts.index') }}>CRUDTASK</a>
             <div class="justify-end ">
                 <div class="col ">
-                    <a class="btn btn-sm btn-success" href={{ route('posts.create') }}>Add Post</a>    
+                    <a class="btn btn-sm btn-success" href={{ route('posts.create') }}>Add Task</a>    
                 </div>
             </div>
     </nav>
@@ -37,7 +37,7 @@
                         <label for="body">Body</label>
                         <textarea class="form-control" id="body" name="body" rows="3" required>{{ $post->body }}</textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Update Post</button>
+                    <button type="submit" class="btn btn-primary">Update Task</button>
                 </form>
             </div>
         </div>
